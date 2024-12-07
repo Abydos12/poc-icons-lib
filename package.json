@@ -1,0 +1,24 @@
+{
+  "name": "poc-icons-lib",
+  "version": "0.1.0",
+  "description": "POC to create an icons font lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "fantasticon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abydos12/poc-icons-lib.git"
+  },
+  "keywords": [
+    "icons"
+  ],
+  "bugs": {
+    "url": "https://github.com/Abydos12/poc-icons-lib/issues"
+  },
+  "homepage": "https://github.com/Abydos12/poc-icons-lib#readme",
+  "devDependencies": {
+    "@twbs/fantasticon": "^3.0.0"
+  }
+}
