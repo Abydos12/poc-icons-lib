@@ -3,9 +3,9 @@ $icons-font: "icons";
 @font-face {
   font-display: block;
   font-family: $icons-font;
-  src: url("./icons.ttf?de465b6a7b82daf50f8105097291f15b") format("truetype"),
-url("./icons.woff?de465b6a7b82daf50f8105097291f15b") format("woff"),
-url("./icons.woff2?de465b6a7b82daf50f8105097291f15b") format("woff2");
+  src: url("./icons.ttf?e179e96c46ac159a1e697655894bb72a") format("truetype"),
+url("./icons.woff?e179e96c46ac159a1e697655894bb72a") format("woff"),
+url("./icons.woff2?e179e96c46ac159a1e697655894bb72a") format("woff2");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
