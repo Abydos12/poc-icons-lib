@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Abydos12/poc-icons-lib#readme",
   "devDependencies": {
     "@twbs/fantasticon": "^3.0.0"
+  },
+  "dependencies": {
+    "@material-design-icons/svg": "^0.14.13"
   }
 }

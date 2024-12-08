@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ name }} </title>
+
+    <style>
+        *, *:before, *:after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+
+
+        .label {
+            padding: 0.25rem;
+            font-size: 0.75rem;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-family: monospace;
+        }
+
+        .icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .icon-card {
+            width: 6rem;
+            background-color: #ececec;
+            border-radius: 4px;
+
+            & .preview {
+                font-size: xxx-large;
+                line-height: 2;
+            }
+
+            & .label {
+                background-color: #dadada;
+            }
+        }
+
+
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="{{ name }}.css"/>
+</head>
+<body>
+
+<h1>{{ name }}</h1>
+
+<div>
+    <button>
+        <i class="icon icon-sharp-report"></i>
+        test icon button çégpqj
+        <i class="icon icon-sharp-report"></i>
+    </button>
+    <h1>
+        <i class="icon icon-sharp-report"></i>
+        test icon h1 çégpqj
+        <i class="icon icon-sharp-report"></i>
+    </h1>
+    <h2>
+        <i class="icon icon-sharp-report"></i>
+        test icon h2 çégpqj
+        <i class="icon icon-sharp-report"></i>
+    </h2>
+    <h3>
+        <i class="icon icon-sharp-report"></i>
+        test icon h3 çégpqj
+        <i class="icon icon-sharp-report"></i>
+    </h3>
+    <h4>
+        <i class="icon icon-sharp-report"></i>
+        test icon h4 çégpqj
+        <i class="icon icon-sharp-report"></i>
+    </h4>
+    <h5>
+        <i class="icon icon-sharp-report"></i>
+        test icon h5 çégpqj
+        <i class="icon icon-sharp-report"></i>
+    </h5>
+    <h6>
+        <i class="icon icon-sharp-report"></i>
+        test icon h6 çégpqj
+        <i class="icon icon-sharp-report"></i>
+    </h6>
+</div>
+
+<div class="icons">
+    {{# each assets }}
+        <div class="icon-card">
+            <div class='preview'>
+                <i class="{{ ../prefix }} {{ ../prefix }}-{{ @key }}"></i>
+            </div>
+            <div class="label">{{ @key }}</div>
+        </div>
+    {{/ each }}
+</div>
+
+</body>
+</html>

@@ -4,7 +4,7 @@ font-family: "{{ name }}";
 src: {{{ fontSrc }}};
 }
 
-.{{prefix}}::before {
+.{{prefix}} {
 font-family: {{ name }} !important;
 font-style: normal;
 font-weight: normal !important;
@@ -13,10 +13,9 @@ text-transform: none;
 line-height: 1;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
+vertical-align: middle;
 }
 
 {{# each codepoints }}
-.{{ ../prefix }}-{{ @key }}::before {
-    content: "\\{{ codepoint this }}";
-}
+.{{ ../prefix }}-{{ @key }}::before {content: "\\{{ codepoint this }}";}
 {{/ each }}
