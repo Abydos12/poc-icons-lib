@@ -1,11 +1,8 @@
 @font-face {
   font-family: "my-font";
-  src: url('my-font.eot?t=1740231525377'); /* IE9*/
-  src: url('my-font.eot?t=1740231525377#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('my-font.woff2?t=1740231525377') format('woff2'),
-  url('my-font.woff?t=1740231525377') format('woff'),
-  url('my-font.ttf?t=1740231525377') format('truetype'),
-  url('my-font.svg?t=1740231525377') format('svg');
+  src: url('my-font.woff2?t=1740234588826') format('woff2'),
+  url('my-font.woff?t=1740234588826') format('woff'),
+  url('my-font.ttf?t=1740234588826') format('truetype');
 }
 
 .my-font {

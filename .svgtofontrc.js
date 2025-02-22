@@ -9,6 +9,7 @@ export default {
   },
   useNameAsUnicode: true,
   outSVGReact: false,
+  excludeFormat: ["eot", "svg", "symbol.svg"],
   website: {
     title: "lib-icons",
     description: "",
