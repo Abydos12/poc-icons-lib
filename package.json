@@ -1,14 +1,12 @@
 {
-  "name": "poc-icons-lib",
+  "name": "@my-org/poc-icons-lib",
   "version": "0.1.0",
   "description": "POC to create an icons font lib",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "npm run optimize-svg",
-    "build": "fantasticon",
     "optimize-svg": "svgo -f ./icons -r",
-    "build2": "svgtofont -s ./icons/sharp -o ./fonts"
+    "build": "svgtofont -s ./icons/sharp -o ./fonts"
   },
   "repository": {
     "type": "git",
@@ -24,6 +22,8 @@
   "devDependencies": {
     "@twbs/fantasticon": "^3.0.0",
     "svgo": "^3.3.2",
-    "svgtofont": "^6.2.0"
-  }
+    "svgtofont": "^6.3.0"
+  },
+  "author": "user@example.com",
+  "license": "ISC"
 }

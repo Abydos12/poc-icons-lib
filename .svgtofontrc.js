@@ -2,8 +2,8 @@
  * @type {import('svgtofont').SvgToFontOptions}
  */
 export default {
+  fontName: "my-font",
   emptyDist: true,
-  fontName: "myfont",
   css: {
     include: /\.(css)$/g,
   },

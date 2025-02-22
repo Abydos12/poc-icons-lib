@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "my-font";
+  src: url('my-font.eot?t=1740231525377'); /* IE9*/
+  src: url('my-font.eot?t=1740231525377#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('my-font.woff2?t=1740231525377') format('woff2'),
+  url('my-font.woff?t=1740231525377') format('woff'),
+  url('my-font.ttf?t=1740231525377') format('truetype'),
+  url('my-font.svg?t=1740231525377') format('svg');
+}
+
+.my-font {
+  font-family: 'my-font' !important;font-size: undefined;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
