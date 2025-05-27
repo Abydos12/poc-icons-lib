@@ -4,9 +4,9 @@
   "description": "POC to create an icons font lib",
   "main": "index.js",
   "scripts": {
-    "prebuild": "npm run optimize-svg",
     "optimize-svg": "svgo -f ./icons -r",
-    "build": "svgtofont -s ./icons/sharp -o ./fonts"
+    "prebuild": "npm run optimize-svg",
+    "build": "svgtofont --sources ./icons/sharp --output ./fonts"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/Abydos12/poc-icons-lib#readme",
   "devDependencies": {
-    "@twbs/fantasticon": "^3.0.0",
+    "@twbs/fantasticon": "^3.1.0",
     "svgo": "^3.3.2",
-    "svgtofont": "^6.3.0"
+    "svgtofont": "^6.3.2"
   },
   "author": "user@example.com",
   "license": "ISC"

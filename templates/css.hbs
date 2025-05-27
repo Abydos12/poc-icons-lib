@@ -14,8 +14,9 @@ line-height: 1;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 vertical-align: middle;
+content: var(--icon);
 }
 
 {{# each codepoints }}
-.{{ ../prefix }}-{{ @key }}::before {content: "\\{{ codepoint this }}";}
+.{{ ../prefix }}-{{ @key }} {--icon: "\\{{ codepoint this }}";}
 {{/ each }}

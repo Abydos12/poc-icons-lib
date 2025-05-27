@@ -4,7 +4,7 @@ module.exports = {
   outputDir: "./dist",
   prefix: "icon",
   fontTypes: ["ttf", "woff", "woff2"],
-  assetTypes: ["ts", "scss", "css", "json", "html"],
+  assetTypes: ["ts", "css", "json", "html"],
   normalize: true, // Use a custom Handlebars template
   templates: {
     css: "./templates/css.hbs",
